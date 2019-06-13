@@ -22,7 +22,7 @@ public class SpringJava4sController {
 
 
 	@GetMapping("/hello")
-	public String WelcomeMessage(Model model) {
+	public String HelloMessage(Model model) {
         
         return "Hello Spring boot Github integration";
     }
