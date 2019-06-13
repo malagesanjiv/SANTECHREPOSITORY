@@ -24,7 +24,13 @@ public class SpringJava4sController {
 	@GetMapping("/hello")
 	public String WelcomeMessage(Model model) {
         
-        return "Hello";
+        return "Hello Spring boot Github integration";
+    }
+	
+	@GetMapping("/welcome")
+	public String WelcomeMessage(Model model) {
+        
+        return "Hello Spring boot Github integration";
     }
 }
 
