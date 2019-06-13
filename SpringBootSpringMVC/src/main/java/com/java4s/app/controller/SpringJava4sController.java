@@ -32,6 +32,11 @@ public class SpringJava4sController {
         
         return "Hello Spring boot Github integration";
     }
+	@GetMapping("/welcome1")
+	public String WelcomeMessage1(Model model) {
+        
+        return "Hello Spring boot Github integration";
+    }
 }
 
 // URL: http://localhost:8080/springbootmvc/
